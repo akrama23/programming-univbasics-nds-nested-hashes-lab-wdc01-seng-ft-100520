@@ -42,6 +42,6 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
   
   
-  assembled_aoh[row, key, new_value]
+  assembled_aoh[row, new_value]
   
 end
